@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<></>}/>
             <Route index element={<Landing/>} />
-            <Route path="custom_cars" element={<CarSection/>} />
+            <Route path="customs_cars" element={<CarSection/>} />
             <Route path="reaction_time" element={<ReactionTime/>} />
           <Route/>
         </Routes>
